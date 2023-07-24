@@ -2,7 +2,6 @@ FROM python:3.10-slim-buster
 
 LABEL maintainer="Rudychuk Dmytro dmytrorudychuk@gmail.com"
 
-
 ARG UID=1000
 ARG GID=1000
 ENV UID=${UID}
